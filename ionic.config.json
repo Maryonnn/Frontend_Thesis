@@ -1,0 +1,7 @@
+{
+  "name": "assessmate",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "custom"
+}
