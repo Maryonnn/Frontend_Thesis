@@ -5,19 +5,19 @@ import { IoLogOut } from "react-icons/io5";
 import { FaClipboardList } from "react-icons/fa";
 import { FaCamera } from "react-icons/fa";
 
-function Question(){
+function Criteria(){
     return(
         <>
             <Navbar className='p-3'>
                 <Container>
                     <Image src='assessmate.png' alt='' className='question-image'/>
-                    <IoLogOut size={40} className='btn-icons' />
+                    <IoLogOut size={34} className='btn-icons' />
                 </Container>
             </Navbar>
             <hr className="border-4" />
             <Container>
                 <div className='d-flex justify-content-end me-1'>
-                    <Button className='bttn rounded-pill fw-bold'><IoMdAddCircle size={20} className='mb-1 p-0'/>&nbsp;Add Question</Button>
+                    <Button className='bttn rounded-pill fw-bold'><IoMdAddCircle size={20} className='mb-1 p-0'/>&nbsp;Add Criteria</Button>
                 </div>
             </Container>
             <Navbar fixed="bottom" className='nav-bottom'>
@@ -31,4 +31,4 @@ function Question(){
     );
 }
 
-export default Question;
+export default Criteria;

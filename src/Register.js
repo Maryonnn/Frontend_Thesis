@@ -22,7 +22,9 @@ function Register(){
                     <FloatingLabel label="Confirm password" className='mb-4'>
                         <Form.Control type="password" placeholder="Password" />
                     </FloatingLabel>
-                    <Button variant='primary' className='w-100 d-flex justify-content-center h-100 fw-bold'>Register</Button>
+                    <div className='d-flex justify-content-center rounded-3'>
+                        <Button className='w-75 fw-bold bttn'>Register</Button>
+                    </div>
                     <Container className='d-flex justify-content-center mt-4'>
                         <p>Already have an account?&nbsp;</p>
                         <Link to='/'>Login</Link>

@@ -1,5 +1,40 @@
+/*CSS FILE FOR ASSESSMATE*/
+   
+   #root{
+      padding: 0;
+      margin: 0;
+   }
 
- .login-image{
-    height: auto;
-    max-width: 100%;
- }
+   .login-image{
+      height: auto;
+      max-width: 100%;
+   }
+
+   .question-image{
+      max-width: 60%;
+      height: 45px;
+   }
+
+   .bttn{
+      background-color: #FF8A00 !important;
+      border-color: #FF8A00 !important;
+   }
+
+   .btn-icons{
+      color: #250000;
+   }
+
+   .nav-bottom{
+      background-color: #E9E9E9;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+   }
+
+   .icon-container {
+      display: inline-block;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+   }
+    
+   .icon-container.clicked {
+      transform: scale(1.1);
+   }

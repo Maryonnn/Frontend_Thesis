@@ -16,8 +16,10 @@ function Login(){
                     <FloatingLabel label="Password" className='mb-3'>
                         <Form.Control type="password" placeholder="Password" />
                     </FloatingLabel>
-                    <Form.Check label='Remeber me' className='mb-3' />
-                    <Button variant='primary' className='w-100 d-flex justify-content-center h-100 fw-bold'>Login</Button>
+                    <Form.Check label='Remeber me' className='mb-4' />
+                    <div className='d-flex justify-content-center rounded-3'>
+                        <Button className='w-75 fw-bold bttn'>Login</Button>
+                    </div>
                     <Container className='d-flex justify-content-center mt-4'>
                         <p>Don't have an account?&nbsp;</p>
                         <Link to='/register'>Register</Link>
